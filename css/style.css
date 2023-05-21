@@ -163,7 +163,7 @@ header{
 /* ================CATEGORIES============================== */
 .categories{
     background: var(--color-bg1);
-    height: 36rem;
+    height: 40rem;
 }
 
 .categories h1{
@@ -234,7 +234,9 @@ header{
 .courses{
     margin-top: 7rem;
 }
-
+#categories__h2{
+    margin-top: -9rem;
+}
 .courses__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
